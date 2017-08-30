@@ -2,25 +2,25 @@
 layout: workshop 
 root: .
 venue: University of Melbourne
-address1: William Hearn Seminar Room, Room G09, The Old Quadrangle, University of Melbourne
+address1: TBA
 address2: 
 country: Australia
 language: en
 latlng: -37.797779, 144.961182
-humandate: July 28 and August 4, 2016
+humandate: September 23, 2017
 humantime: 9:00 am - 5:00 pm
-startdate: 2016-07-28
-enddate: 2016-08-04
-instructor: ["Tim Esler", "Nikki Rubinstein", "Tiane Ryman", "Chenkai Ma"]
-helper: ["Marion Shadbolt", "Sepideh Foroutan", "Ramyar Molania", "Andy Krause", "Michael Silk"]
-contact: t.esler@student.unimelb.edu.au 
+startdate: 2017-09-23
+enddate: 
+instructor: ["Nikki Rubinstein", "Roxane Legaie"]
+helper: []
+contact: roxane.legaie@gmail.com 
 contact2: nikkir@student.unimelb.edu.au
 etherpad: https://public.etherpad-mozilla.org/p/Introductory-R-Workshop-28July2016
 eventbrite: 26464025613
 survey1: http://goo.gl/forms/kG0Ma5FR37
 survey2: http://goo.gl/forms/AQdU9I3Z3l
-wifiUsername: Software Carpentry
-wifiPassword: hackerwithin
+wifiUsername: TBA
+wifiPassword: TBA
 ---
 
 
@@ -163,9 +163,9 @@ Greg Wilson: "Software Carpentry: Lessons Learned". F1000Research, 2016, 3:62 (d
 
 <!-- DO NOT EDIT SURVEY LINKS -->
  <p><em>Surveys</em></p>
-<p>Please be sure to complete these surveys at the end of each day of the workshop.</p>
-<p><a href="{{page.survey1}}">End of first day survey</a></p>
-<p><a href="{{page.survey2}}">End of second day survey</a></p>
+<p>Please be sure to complete this surveys at the end of the workshop.</p>
+<!--<p><a href="{{page.survey1}}">End of first day survey</a></p>-->
+<p><a href="{{page.survey2}}">End of day survey</a></p>
 <!--<p><a href='{{ site.swc_pre_survey }}{{ site.github.project_title }}'>Pre-workshop Survey</a></p>
 <p><a href='{{ site.swc_post_survey }}{{ site.github.project_title }}'>Post-workshop Survey</a></p>-->
 
@@ -173,7 +173,7 @@ Greg Wilson: "Software Carpentry: Lessons Learned". F1000Research, 2016, 3:62 (d
   <div class="col-md-6">
     <h3>Thursday July 28th</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Introduction and access to R through "Data Intensive Tools for the Cloud (DIT4C)"</td> </tr>
+      <tr> <td>09:00</td>  <td>Introduction"</td> </tr>
       <tr> <td>10:00</td> <td>Intro to R and how to find help</td> </tr>
       <tr> <td>11:00</td>  <td>Data structures</td> </tr>
       <tr> <td>12:00</td>  <td>Reading and subsetting data</td> </tr>
@@ -238,9 +238,9 @@ Greg Wilson: "Software Carpentry: Lessons Learned". F1000Research, 2016, 3:62 (d
 -->
 {% if page.etherpad %}
 <p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <strong>Google Doc:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this Google Doc for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
@@ -365,7 +365,8 @@ Greg Wilson: "Software Carpentry: Lessons Learned". F1000Research, 2016, 3:62 (d
 
 <p>
   <strong>Requirements:</strong>
-  <strong>**Participants will be required to bring their own laptop**</strong>,
+  <strong>**Participants will be required to bring their own laptop and charger.**</strong> 
+  <!--,
   from which they will logon to the
   <a href="http://resbaz.cloud.edu.au/ ">Data Intensive Tools for the Cloud</a>
   (DIT4C) environment on the
@@ -374,12 +375,13 @@ Greg Wilson: "Software Carpentry: Lessons Learned". F1000Research, 2016, 3:62 (d
   so there's nothing participants need to do in preparation for the workshop.
   Instructions for connecting to DIT4C can be found <a href="dit4c_access.html">here.</a>
   <!--Having said that, there are software installation instructions <a href="#software_install">below</a>
-  for participants who'd like to install the software on their own computer before or after the workshop.-->
+  for participants who'd like to install the software on their own computer before or after the workshop.--> 
+  -->
 </p>
 
 <p>
   <strong>Wifi:</strong>
-  If you're bringing a wifi device to the workshop,
+<!--  If you're bringing a wifi device to the workshop,
   access to the wifi network will depend on whether you're affiliated with the Univerity of Melbourne.
   University of Melbourne staff/students can connect to the UniWireless network;
   instructions on how to do this and where to get assistance can be found
@@ -388,7 +390,8 @@ Greg Wilson: "Software Carpentry: Lessons Learned". F1000Research, 2016, 3:62 (d
   their home institution) how to connect to the Eduroam wireless network.
 </p> 
 {% if page.wifiPassword%}
-For visitors who are not from a tertiary institution, the visitor login details for the UniWireless are: <ul>
+For visitors who are not from a tertiary institution, the visitor login details for the UniWireless are -->
+ Wifi log in details are: <ul>
 <li>network: {{page.wifiUsername}}  </li>
 <li>password: {{page.wifiPassword}}  </li>
 </ul>
@@ -677,7 +680,6 @@ For visitors who are not from a tertiary institution, the visitor login details 
   </p>
 -->
 <!--</div> <!-- End of 'Python' section. -->
-
 <div id="r"> <!-- Start of 'R' section. -->
 
   <h3>R</h3>
